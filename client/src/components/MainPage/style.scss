@@ -1,0 +1,18 @@
+@import "../../data/base.scss";
+
+.container {
+  margin: 5px;
+
+  p {
+    color: $fontColor;
+    font-size: $fontSize;
+  }
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_buttons {
+  display: flex;
+}
